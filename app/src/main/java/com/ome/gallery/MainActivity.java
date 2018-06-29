@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
+import com.ome.gallery.ui.BlankFragment;
 import com.ome.gallery.ui.CakeListFragment;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             // Show the cake list fragment
             getSupportFragmentManager()
                     .beginTransaction()
-                    .add(R.id.content, new CakeListFragment())
+                    .add(R.id.content, new BlankFragment())
                     .commit();
         }
     }

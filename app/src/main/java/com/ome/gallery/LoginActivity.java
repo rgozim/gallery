@@ -33,11 +33,14 @@ import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 /**
- * A login screen that offers login via email/password.
+ * A login screen that offers login via email/password to OMERO
  */
 public class LoginActivity extends AppCompatActivity {
 
-    private static final String HOST_URL = "http://127.0.0.1:8000";
+    /**
+     * Change this to your OMERO.web URL
+     */
+    private static final String HOST_URL = "http://127.0.0.1:4060";
 
     private static final String TOKEN_URL = HOST_URL + "/api/v0/token/";
 

@@ -25,7 +25,6 @@ import java.util.List;
 /**
  * Created by rgozim on 09/06/2016.
  */
-
 public class CakeListFragment extends Fragment implements
         LoaderManager.LoaderCallbacks<List<CakeModel>> {
 
